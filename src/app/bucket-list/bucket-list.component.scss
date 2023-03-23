@@ -1,0 +1,25 @@
+#newBucketForm .form-label {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.bucket-list {
+  .bucket-list-actions {
+    min-height: 38px;
+  }
+  .bucket-list-table {
+    //padding-left: 15px;
+    //padding-right: 15px;
+    border: 1px solid gray;
+
+    .bucket-list-header{
+      background-color: lightgray;
+      border-bottom: 1px solid gray;
+    }
+
+    .bucket-list-item:hover {
+      background: lightpink;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.navbar {
+  background: gray;
+  color: white;
+
+  .navbar-title {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
